@@ -27,6 +27,8 @@ Classes:
 ---
 
 ## 📂 Project Structure
+
+```text
 fruit-classification-cnn-from-scratch/
 │
 ├── notebooks/
@@ -36,6 +38,8 @@ fruit-classification-cnn-from-scratch/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+```
 ---
 
 ## 🧠 Dataset
@@ -86,6 +90,24 @@ Optimizer: `Adam`
 ---
 
 ## 🛠️ How to Run
-```bash
-pip install -r requirements.txt
-Open jupyter notebook
+
+1. Clone the repository
+    ```bash
+    git clone https://github.com/Anucool419/fruit-classification-cnn-from-scratch.git
+    cd fruit-classification-cnn-from-scratch
+    # Optional
+    python -m venv venv
+    source venv/bin/activate   # On Windows: venv\Scripts\activate
+    ```
+2. Install dependencies
+   ```bash
+    pip install -r requirements.txt
+
+   ```
+4. Launch Jupyter notebook
+    ```bash
+    jupyter notebook
+    ```
+5. Open the notebooks inside the notebooks/ folder:
+   - `01_exploring_learning_classification.ipynb`
+   - `02_clean_training_pipeline.ipynb`
