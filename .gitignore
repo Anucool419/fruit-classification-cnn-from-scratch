@@ -1,0 +1,14 @@
+# Dataset
+dataset/
+images/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+
+# Models
+*param_tuning.h5
+*fruit_classification_prac_acc123.h5
+
